@@ -1,0 +1,67 @@
+{
+  "name": "html-a",
+  "version": "0.0.0",
+  "description": "Parse HTML and extract «a» elements",
+  "main": "index.js",
+  "engines" : {
+    "node" : ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arttse/node.html-a.git"
+  },
+  "author": "Nikita «Arttse» Bystrov",
+  "license": "MIT",
+  "homepage": "https://github.com/Arttse/node.html-a#readme",
+  "dependencies": {
+    "htmlparser2": "3"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "rules": {
+      "no-multi-spaces": [
+        "error",
+        {
+          "exceptions": {
+            "Property": true
+          }
+        }
+      ],
+      "no-spaced-func": 0,
+      "space-in-parens": [
+        "error",
+        "always"
+      ],
+      "no-multiple-empty-lines": [
+        "error",
+        {
+          "max": 2,
+          "maxEOF": 1
+        }
+      ],
+      "padded-blocks": 0,
+      "indent": [
+        "error",
+        2
+      ],
+      "key-spacing": [
+        "error",
+        {
+          "beforeColon": true,
+          "afterColon": true,
+          "align": "colon"
+        }
+      ],
+      "no-extra-parens": [
+        "warn"
+      ]
+    }
+  }
+}
