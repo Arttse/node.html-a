@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "description": "Parse HTML and extract «a» elements",
   "main": "index.js",
-  "engines" : {
-    "node" : ">=4"
+  "engines": {
+    "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && nyc ava"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "devDependencies": {
     "ava": "*",
+    "coveralls": "2",
+    "nyc": "8",
     "xo": "*"
   },
   "xo": {
