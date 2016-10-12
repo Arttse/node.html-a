@@ -40,6 +40,27 @@ test ( 'html', t => {
     'Argument «html» must be a «string», not «number»'
   );
 
+  t.throws (
+    () => {
+      m ( true );
+    },
+    'Argument «html» must be a «string», not «boolean»'
+  );
+
+  t.throws (
+    () => {
+      m ( Symbol ( 'foo' ) );
+    },
+    'Argument «html» must be a «string», not «symbol»'
+  );
+
+  t.throws (
+    () => {
+      m ( () => {} );
+    },
+    'Argument «html» must be a «string», not «function»'
+  );
+
   t.notThrows (
     () => {
       m ( 'beleberda' );

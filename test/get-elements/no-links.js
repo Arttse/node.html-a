@@ -10,6 +10,7 @@ test ( t => {
 
   const out = m.getElements ( html );
 
+  t.true ( Array.isArray ( out ) );
   t.true ( out.length === 0 );
 
 } );
