@@ -1,6 +1,15 @@
+# Hidden folders
 .*/
-node_modules/
-coverage/
-.nyc_output/
-yarn.lock
+
+# Backup files
 *~
+
+# Node.js modules
+node_modules/
+
+# Test coverage
+coverage/
+
+# Yarn - package manager
+.yarnclean
+yarn.lock
