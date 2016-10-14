@@ -16,6 +16,28 @@
   "author": "Nikita «Arttse» Bystrov",
   "license": "MIT",
   "homepage": "https://github.com/Arttse/node.html-a#readme",
+  "keywords": [
+    "text",
+    "scraper",
+    "scrape",
+    "parser",
+    "parse",
+    "link",
+    "innerHTML",
+    "information",
+    "info",
+    "html",
+    "href",
+    "get",
+    "extract",
+    "element",
+    "dom",
+    "body",
+    "attributes",
+    "anchor",
+    "all",
+    "a"
+  ],
   "dependencies": {
     "htmlparser2": "3"
   },
