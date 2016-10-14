@@ -1,6 +1,6 @@
 {
   "name": "html-a",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Parse HTML and extract «a» elements",
   "main": "index.js",
   "engines": {
