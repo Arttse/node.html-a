@@ -1,6 +1,9 @@
 # html-a
 
+[![npm version](https://badge.fury.io/js/html-a.svg)](https://www.npmjs.com/package/html-a)
+[![Build Status](https://travis-ci.org/Arttse/node.html-a.svg?branch=master)](https://travis-ci.org/Arttse/node.html-a)
 [![dependencies Status](https://david-dm.org/Arttse/node.html-a/status.svg)](https://david-dm.org/Arttse/node.html-a)
+[![Coverage Status](https://coveralls.io/repos/github/Arttse/node.html-a/badge.svg?branch=master)](https://coveralls.io/github/Arttse/node.html-a?branch=master)
 
 > Node.js module. Parse HTML and extract «a» elements.
 
