@@ -4,7 +4,12 @@
 
 > Node.js module. Parse HTML and extract «a» elements.
 
-Only using the fast [htmlparser2](https://github.com/fb55/htmlparser2).
+
+## Features
+- Nothing extra.
+- Fast and simple.
+- Small size (not bloated).
+- Only using the fast [htmlparser2](https://github.com/fb55/htmlparser2).
 
 
 ## Install
