@@ -1,5 +1,6 @@
 'use strict';
 
+import path from 'path';
 import fs from 'fs';
 import test from 'ava';
 import m from '../../';
@@ -7,7 +8,7 @@ import m from '../../';
 const isObj = arg => {
   return arg !== null && typeof arg === 'object' && !Array.isArray ( arg );
 };
-const html = fs.readFileSync ( '../html/links-href.html', 'utf8' );
+const html = fs.readFileSync ( path.join ( __dirname, '../html/links-href.html' ), 'utf8' );
 
 test ( t => {
 
