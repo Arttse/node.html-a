@@ -44,7 +44,7 @@
   "devDependencies": {
     "ava": "0.17",
     "coveralls": "2",
-    "nyc": "8",
+    "nyc": "10",
     "xo": "0.17"
   },
   "xo": {
