@@ -42,10 +42,10 @@
     "htmlparser2": "3"
   },
   "devDependencies": {
-    "ava": "*",
+    "ava": "0.17",
     "coveralls": "2",
     "nyc": "8",
-    "xo": "*"
+    "xo": "0.17"
   },
   "xo": {
     "esnext": true,
