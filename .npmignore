@@ -3,6 +3,3 @@
 
 # But not
 !lib/**
-!readme.md
-!index.js
-!package.json
