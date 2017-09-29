@@ -134,4 +134,8 @@ HTML string for extract «a» elements.
 
 ## License
 
-MIT © Nikita «Arttse» Bystrov
+MIT © Nikita «Arttse» Bystrov  
+
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/L4wmvpfoy5AyZb1BETQYvJMN/Arttse/node.html-a'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/L4wmvpfoy5AyZb1BETQYvJMN/Arttse/node.html-a.svg' />
+</a>
