@@ -8,7 +8,10 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "npm run lint && nyc ava"
+    "test": "npm run lint && npm run coverage",
+    "tests": "ava",
+    "coverage": "nyc ava",
+    "report": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
