@@ -7,7 +7,8 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && nyc ava"
+    "lint": "eslint .",
+    "test": "npm run lint && nyc ava"
   },
   "repository": {
     "type": "git",
@@ -44,48 +45,12 @@
   "devDependencies": {
     "ava": "0.17",
     "coveralls": "2",
-    "nyc": "10",
-    "xo": "0.17"
-  },
-  "xo": {
-    "esnext": true,
-    "rules": {
-      "no-multi-spaces": [
-        "error",
-        {
-          "exceptions": {
-            "Property": true
-          }
-        }
-      ],
-      "no-spaced-func": 0,
-      "space-in-parens": [
-        "error",
-        "always"
-      ],
-      "no-multiple-empty-lines": [
-        "error",
-        {
-          "max": 2,
-          "maxEOF": 1
-        }
-      ],
-      "padded-blocks": 0,
-      "indent": [
-        "error",
-        2
-      ],
-      "key-spacing": [
-        "error",
-        {
-          "beforeColon": true,
-          "afterColon": true,
-          "align": "colon"
-        }
-      ],
-      "no-extra-parens": [
-        "warn"
-      ]
-    }
+    "eslint": "^4.7.2",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nyc": "10"
   }
 }

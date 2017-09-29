@@ -1,17 +1,15 @@
-'use strict';
+'use strict'
 
-import path from 'path';
-import fs from 'fs';
-import test from 'ava';
-import m from '../../';
+import path from 'path'
+import fs from 'fs'
+import test from 'ava'
+import m from '../../'
 
-const html = fs.readFileSync ( path.join ( __dirname, '../html/no-links.html' ), 'utf8' );
+const html = fs.readFileSync(path.join(__dirname, '../html/no-links.html'), 'utf8')
 
-test ( t => {
+test(t => {
+  const out = m(html)
 
-  const out = m ( html );
-
-  t.true ( Array.isArray( out ) );
-  t.true ( out.length === 0 );
-
-} );
+  t.true(Array.isArray(out))
+  t.true(out.length === 0)
+})
